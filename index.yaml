@@ -1,0 +1,76 @@
+apiVersion: v1
+entries:
+  cert-manager-webhook-ns1:
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.176879Z"
+    description: NS1 Webhook for Cert Manager
+    digest: d186e925190d7f1af4db170b6f2206511d806a47dcb8981017bada9f034cd1d6
+    name: cert-manager-webhook-ns1
+    urls:
+    - cert-manager-webhook-ns1-0.4.5.tgz
+    version: 0.4.5
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.184905Z"
+    description: NS1 Webhook for Cert Manager
+    digest: df3c7b5669576ce234411db5fca07daefd924dce3c44c9a39d65b1d5a0484957
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.4.3.tgz
+    version: 0.4.3
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.183947Z"
+    description: NS1 Webhook for Cert Manager
+    digest: ff94ba1da0ae3bab80786bb4877e84bc5d671e82e8ee16e63c142eb4c6097b09
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.4.2.tgz
+    version: 0.4.2
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.182969Z"
+    description: NS1 Webhook for Cert Manager
+    digest: d59836e054cf27157242e97a925fa155e49d935d663bb517d62f7451f57583b1
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.4.1.tgz
+    version: 0.4.1
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.181936Z"
+    description: NS1 Webhook for Cert Manager
+    digest: 058dfa740724cc418fc2ce87cb2626624733a061f8ff41dae979529e67ebf7b5
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.4.0.tgz
+    version: 0.4.0
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.180921Z"
+    description: NS1 Webhook for Cert Manager
+    digest: 29a6b80d76357dc10e3e99589df3fb1503ea93783ce01d8fd35a2292182b2a33
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.3.0.tgz
+    version: 0.3.0
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.178892Z"
+    description: NS1 Webhook for Cert Manager
+    digest: 3bee6828b948552407bc8a644ba56d97eff963a927301df3281314bd4f8ed86f
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v1
+    appVersion: v0.1.0
+    created: "2026-01-14T10:37:04.177857Z"
+    description: NS1 Webhook for Cert Manager
+    digest: 23e70c899b148f1f828d60ebaa9bc442c1e3dc9e43e3812002e6165545a8bd48
+    name: cert-manager-webhook-ns1
+    urls:
+    - docs/cert-manager-webhook-ns1-0.1.0.tgz
+    version: 0.1.0
+generated: "2026-01-14T10:37:04.176058Z"
