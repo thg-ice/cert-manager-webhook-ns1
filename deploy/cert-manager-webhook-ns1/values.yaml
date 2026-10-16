@@ -10,9 +10,12 @@ certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
+# The image is pinned to a released version and its digest, so a moved tag can't change what runs.
+# When overriding repository or tag, set digest to the matching image's digest, or to "" to pull by tag.
 image:
-  repository: ns1inc/cert-manager-webhook-ns1
-  tag: latest
+  repository: ghcr.io/thg-ice/cert-manager-webhook-ns1
+  tag: v0.5.1
+  digest: sha256:0f20bcbf3e368d7aa53f89cdb8d05fb62e73079b9ec23b2aee98e3c43080183b
   pullPolicy: Always
 
 nameOverride: ""

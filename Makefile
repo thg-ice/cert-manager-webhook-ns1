@@ -41,4 +41,5 @@ rendered-manifest.yaml:
 		$(IMAGE_NAME) \
 		--set image.repository=$(IMAGE_NAME) \
 		--set image.tag=$(IMAGE_TAG) \
+		--set image.digest= \
 		deploy/$(IMAGE_NAME) > "$(OUT)/rendered-manifest.yaml"
