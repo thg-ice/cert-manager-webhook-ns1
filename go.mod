@@ -1,6 +1,6 @@
 module github.com/ns1/cert-manager-webhook-ns1
 
-go 1.23.0
+go 1.26.9
 
 require (
 	github.com/cert-manager/cert-manager v1.15.4
