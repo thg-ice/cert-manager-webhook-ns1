@@ -37,7 +37,12 @@ resources: {}
   #  cpu: 100m
   #  memory: 128Mi
 
-securityContext: {}
+# Pod security context. The webhook only reads its serving certificate and listens on an unprivileged port, so it
+# runs as a non-root user by default.
+securityContext:
+  runAsNonRoot: true
+  runAsUser: 65532
+  runAsGroup: 65532
 
 nodeSelector: {}
 
